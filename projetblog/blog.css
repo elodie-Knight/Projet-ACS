@@ -1,0 +1,266 @@
+body{
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color:grey;
+	color: white;
+}
+
+.log{
+    width: 50%;
+    background-color: rgba(38, 38, 38, 0.63);
+    position: relative;
+    left: 27%;
+    top: 5%;
+    border-radius: 10px;
+
+}
+
+.logenvoi{
+    position: relative;
+    top: 2%;
+    left: 7%;
+    width: 80%;
+    margin: 10px;
+}
+nav{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 20%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+ol{
+    position: relative;
+    left: 5%;
+    top: 5%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    font-size: 30px;
+		
+}
+
+
+
+img{
+	width: 95%;
+    position: relative;
+    left: 1.5%;
+}
+a{
+	color: white;
+}
+a:link{
+	text-decoration:none;
+}
+a:hover{
+	color: #05054f;
+	
+}
+
+.formulaire{
+        height: 667px;
+}
+
+#categories{
+    display: inline-block;
+    position: relative;
+    left: -36%;
+    top: 125px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 155px;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px -6px rgba(16, 31, 46, 0.5);
+}
+
+
+.auteur{
+    position: relative;
+    left: 25%;
+    top: -110px;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 267px;
+    margin: 3% auto;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px -6px rgba(16, 31, 46, 0.5);
+}
+
+#articles{
+    position: relative;
+    left: 30%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    height: 518px;
+    margin: 3% auto;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px -6px rgba(16, 31, 46, 0.5);
+}
+
+ h1 {
+	margin: 0;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-size: 60px;
+    width: 25%;
+    position: relative;
+    left: 40%;
+    top: -10%;
+    text-align: center;
+    color: white;	
+	
+}
+
+article{
+    background-color: rgba(38, 38, 38, 0.63);
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 90px;
+    width: 190px;
+    text-align: center;
+    box-sizing: inherit;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 2px 2px 10px;
+    margin-bottom: 50px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding : 0% 25%;
+  
+}
+
+.id_auteur, .id_categorie {
+  position: relative;
+  
+}
+
+input, select, textarea {
+  background-color: white;
+  border-width: 0;
+  width: 100%;
+  height: 3em;
+  padding: 0% 0% 0% 3.5em;
+  margin: 4% 0%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2EB7B7;
+  border-width: 0;
+  margin-top: 1%;
+  padding: 5% 0%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  height: auto;
+  font-weight: 300;
+  width: 50%;
+  float: left;
+  transition : all 1s ease-in-out;
+}
+
+
+
+option:checked, option:hover {
+    background: #00ffff;
+}
+
+input:enabled, textarea:enabled, select:enabled {
+  outline: none;
+  font-family: 'Roboto';
+}
+
+select {
+  border-width: 0;
+}
+
+option[value] {
+  outline-color: red;
+  background-color: red;
+}
+
+option[value]{
+  border-width: : 0;
+  color : white;
+  background-color: rgba(16, 31, 46, 1);
+}
+
+
+option[value="defaut"] { display: none;}
+
+button[type="reset"] {
+	background-color: #C62828;
+}
+button[type="reset"]:hover {
+	background-color: transparent;
+	color: #C62828;
+	border: 1px solid #C62828;
+	box-sizing: border-box;
+}
+
+button[type="submit"]:hover {
+	background-color: transparent;
+	color: #2EB7B7;
+	border: 1px solid #2EB7B7;
+	box-sizing: border-box;
+}
+
+*::-webkit-input-placeholder, *:-ms-input-placeholder, *::-moz-placeholder {
+
+  color: rgb(169, 169, 169);
+  font-family: 'Roboto', sans-serif;
+
+}
+
+textarea {
+height: 10em;
+resize: none;
+padding-top: 0.7em;
+display: block;
+}
+
+
+
+h3{
+	font-size: 1.5em;
+}
+
+
+.article{
+	position: relative;
+    top: 16%;
+    left: 30%;
+    font-size: 25px;
+    width: 60%;
+}
+
+.liste{
+	position: relative;
+    width: 95%;
+    margin: 0;
+    top: 5%;
+    left: 5%;
+    font-size: 17px;
+	
+}
+
+.iden{
+	text-align: center;
+}
+
+.envoi{
+	position: relative;
+    top: 10%;
+    left: 5%;
+    width: 85%;
+	
+}

@@ -1,0 +1,49 @@
+@font-face { font-family: 'Roboto-Regular'; 
+	src: url('Roboto-Regular.ttf');
+	src: url('Roboto-Regular.eot?#iefix') format('embedded-opentype'), 
+	url('Roboto-Regular.woff') format('woff'), 
+	url('Roboto-Regular.ttf') format('truetype'), 
+	url('Roboto-Regular.svg#LearningCurveProRegular') format('svg');
+}
+body{
+	background-color:#F2F2F2;
+}
+
+section{
+	float: left;
+	width: 350px;
+    height: 320px;
+    margin: 0.8%;
+	background-color:#FFFFFF;
+    box-shadow: 1px 1px 3px 1px grey;
+	border-radius: 0.1em;
+	
+}
+
+img{
+	width: 350px;
+    height: 225px; 
+}
+
+ p{
+	font-size: 25px;
+	margin: 10px;
+	font-family: Roboto-Regular;
+}
+article{
+	float: right;
+	font-size:25px;
+	
+}
+
+a{
+	font-family: Roboto-Regular;
+	font-size:15px;
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: #dfbedb;
+}
+
